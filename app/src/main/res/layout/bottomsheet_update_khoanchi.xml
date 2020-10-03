@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    style="@style/AppBottomSheetDialogTheme"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bo_goc"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_width="70dp"
+        android:layout_height="4dp"/>
+    <TextView
+        android:text="CẬP NHẬT KHOẢN CHI"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:textColor="#03A9F4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp">
+
+        <EditText
+            android:id="@+id/edtUpdate_ten_khoanchi"
+            android:hint="Tên khoản chi"
+            android:textColorHint="#80000000"
+            android:background="@drawable/bo_goc_text_sheet_bottom"
+            android:textColor="#232425"
+            android:padding="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="48dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="30dp">
+
+        <EditText
+            android:id="@+id/edtUpdate_ngay_khoanchi"
+            android:hint="Ngày (dd/MM/yyyy)"
+            android:textColorHint="#80000000"
+            android:background="@drawable/bo_goc_text_sheet_bottom"
+            android:textColor="#232425"
+            android:padding="12dp"
+            android:textSize="17sp"
+            android:layout_width="match_parent"
+            android:layout_height="48dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="30dp">
+
+        <EditText
+            android:id="@+id/edtUpdate_tien_khoanchi"
+            android:hint="Tiền"
+            android:textColorHint="#80000000"
+            android:background="@drawable/bo_goc_text_sheet_bottom"
+            android:textColor="#232425"
+            android:padding="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="48dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="30dp">
+
+        <EditText
+            android:id="@+id/edtUpdate_ghichu_khoanchi"
+            android:hint="Ghi chú"
+            android:textColorHint="#80000000"
+            android:background="@drawable/bo_goc_text_sheet_bottom"
+            android:textColor="#232425"
+            android:padding="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="48dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnUpdate_khoanchi"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="100dp"
+        android:clickable="true"
+        android:text="CẬP NHẬT"
+        android:background="@drawable/border_radious"
+        android:textColor="#FFF"
+        android:textStyle="bold" />
+
+</LinearLayout>
