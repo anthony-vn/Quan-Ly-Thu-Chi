@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">QUẢN LÝ THU CHI</string>
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+
+    <string-array name="plane_array_spinner_phanloai">
+        <item>Thu</item>
+        <item>Chi</item>
+    </string-array>
+</resources>
